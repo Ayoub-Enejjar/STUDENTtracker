@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Système de Gestion des Étudiants</title>
+    <link rel="stylesheet" href="STUDENTtracker.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Système de Gestion des Étudiants</h1>
+        
+        <div id="addStudentForm" class="section">
+            <h2>Ajouter des Étudiants</h2>
+            <input type="number" id="studentCount" placeholder="Nombre d'étudiants">
+            <button onclick="initializeStudentInput()">Commencer la saisie</button>
+            <div id="studentInputs"></div>
+        </div>
+
+        <div id="studentList" class="section">
+            <h2>Liste des Étudiants</h2>
+            <div id="studentTable"></div>
+        </div>
+
+        <div id="attendance" class="section">
+            <h2>Marquer l'Assiduité</h2>
+            <input type="number" id="studentId" placeholder="ID de l'étudiant">
+            <select id="attendanceStatus">
+                <option value="Present">Présent</option>
+                <option value="Absent">Absent</option>
+            </select>
+            <button onclick="markAttendance()">Marquer</button>
+        </div>
+
+        <div id="statistics" class="section">
+            <h2>Statistiques de Présence</h2>
+            <div id="statsDisplay"></div>
+        </div>
+    </div>
+    <div class="loading"></div>
+    <script src="STUDENTtracker.js"></script>
+</body>
+</html>
