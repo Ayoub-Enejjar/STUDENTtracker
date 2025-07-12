@@ -19,10 +19,6 @@ A modern, professional web application for managing student lists and attendance
 2. Open `STUDENTtracker.html` in your web browser.
 3. Start adding students, marking attendance, and viewing statistics!
 
-## 📸 Screenshots
-> _Add a screenshot of the app here_
-
-![Screenshot Placeholder](Screenshot 2025-07-12 193059.png)
 ## 🎨 Customization
 - You can further enhance the UI by editing `STUDENTtracker.css`.
 - All logic is in `STUDENTtracker.js` for easy extension.
