@@ -22,6 +22,3 @@ A modern, professional web application for managing student lists and attendance
 ## 🎨 Customization
 - You can further enhance the UI by editing `STUDENTtracker.css`.
 - All logic is in `STUDENTtracker.js` for easy extension.
-
-## 📄 License
-MIT License 
